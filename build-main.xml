@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Copying service configuration file</echo>
+  <copy file="service.properties" tofile="C:\WORK\BITS_MTechSoftwareSystems\3rdSEM-2018\1_Distributed Computing (S2-17_SSZG526)_11AM\QUIZ\Quiz\snapshot/target/service.properties" overwrite="true"/>
+</target>
+</project>
